@@ -1,0 +1,59 @@
+ #headerimg,
+ hr,
+ #footer p {
+    display: none;
+ }
+
+ * {
+    font-family: "Playfair Display", system-ui;
+    font-optical-sizing: auto;
+  }
+
+  #homepage .header-btn {
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 9px 32px;
+    border: 0 !important;
+  }
+
+  #homepage .header-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000 !important;
+  }
+
+  .product-price {
+    margin-top: -18px;
+    font-weight:600;
+  }
+
+  #homepage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 250px;
+    cursor: pointer;
+  }
+
+  #homepage {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    #products img {
+        object-fit: contain; 
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #products {
+        margin-top: -15px !important;
+    }
+}
